@@ -2,7 +2,18 @@ import { sampleCourses } from './sample-courses.js';
 import { recommendCourses } from './ai-engine.js';
 
 // Initial state and database retrieval
-let courses = JSON.parse(localStorage.getItem('pkg_courses')) || sampleCourses;
+// Initial state and database retrieval with smart merge:
+// Automatically load fresh crawled data from sample-courses.js while preserving user-created custom courses.
+let storedCourses = JSON.parse(localStorage.getItem('pkg_courses'));
+let courses = [];
+if (!storedCourses) {
+  courses = sampleCourses;
+} else {
+  const sampleIds = new Set(sampleCourses.map(c => c.id));
+  const customCourses = storedCourses.filter(c => !sampleIds.has(c.id));
+  courses = [...sampleCourses, ...customCourses];
+  localStorage.setItem('pkg_courses', JSON.stringify(courses));
+}
 let bookmarks = JSON.parse(localStorage.getItem('pkg_bookmarks')) || [];
 let customSites = JSON.parse(localStorage.getItem('pkg_custom_sites')) || [];
 let reviews = JSON.parse(localStorage.getItem('pkg_reviews')) || [

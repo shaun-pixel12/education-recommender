@@ -88,20 +88,44 @@
 
         <div class="dashboard-grid">
           <div class="glass-card stat-card" data-filter-type="all">
-            <span class="stat-label">전체 교육·행사</span>
-            <span class="stat-value" id="stat-total-courses">0</span>
+            <div class="stat-icon-wrapper" style="background: rgba(59, 130, 246, 0.08); color: var(--color-primary);">
+              <!-- Book icon -->
+              <svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+            </div>
+            <div class="stat-content">
+              <span class="stat-value" id="stat-total-courses">0</span>
+              <span class="stat-label">전체 교육·행사</span>
+            </div>
           </div>
           <div class="glass-card stat-card" data-filter-type="region" data-filter-val="국내">
-            <span class="stat-label">국내 과정</span>
-            <span class="stat-value" id="stat-domestic-courses">0</span>
+            <div class="stat-icon-wrapper" style="background: rgba(99, 102, 241, 0.08); color: var(--color-secondary);">
+              <!-- Map Pin icon -->
+              <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            </div>
+            <div class="stat-content">
+              <span class="stat-value" id="stat-domestic-courses">0</span>
+              <span class="stat-label">국내 과정</span>
+            </div>
           </div>
           <div class="glass-card stat-card" data-filter-type="region" data-filter-val="해외">
-            <span class="stat-label">해외 과정</span>
-            <span class="stat-value" id="stat-global-courses">0</span>
+            <div class="stat-icon-wrapper" style="background: rgba(139, 92, 246, 0.08); color: var(--color-accent);">
+              <!-- Globe icon -->
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+            </div>
+            <div class="stat-content">
+              <span class="stat-value" id="stat-global-courses">0</span>
+              <span class="stat-label">해외 과정</span>
+            </div>
           </div>
           <div class="glass-card stat-card" data-filter-type="type" data-filter-val="세미나·컨퍼런스">
-            <span class="stat-label">세미나·컨퍼런스</span>
-            <span class="stat-value" id="stat-seminar-count">0</span>
+            <div class="stat-icon-wrapper" style="background: rgba(16, 185, 129, 0.08); color: #059669;">
+              <!-- Award Badge icon -->
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+            </div>
+            <div class="stat-content">
+              <span class="stat-value" id="stat-seminar-count">0</span>
+              <span class="stat-label">세미나·컨퍼런스</span>
+            </div>
           </div>
         </div>
 
