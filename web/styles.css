@@ -783,14 +783,21 @@ select.form-control {
   text-align: center;
 }
 
+.calendar-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  box-shadow: var(--glass-shadow);
+  background: #ffffff;
+}
+
 .calendar-grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  border: 1px solid var(--border-color);
-  border-radius: 12px;
   overflow: hidden;
   background: #ffffff;
-  box-shadow: var(--glass-shadow);
 }
 
 .calendar-day-label {
@@ -1445,6 +1452,10 @@ aside.collapsed {
   /* Calendar cell size adjustment */
   .calendar-day {
     min-height: 80px;
+  }
+
+  .calendar-grid {
+    min-width: 750px;
   }
 }
 
