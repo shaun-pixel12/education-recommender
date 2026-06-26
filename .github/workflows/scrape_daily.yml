@@ -1,0 +1,51 @@
+name: Daily Semiconductor Education Scraper
+
+on:
+  schedule:
+    # 매일 한국 시간(KST) 오전 9시 (UTC 00:00)에 자동 실행
+    - cron: '0 0 * * *'
+  # GitHub 웹사이트에서 수동으로 즉시 실행할 수도 있게 설정
+  workflow_dispatch:
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. 소스 코드 다운로드
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    # 2. Node.js 환경 구축
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    # 3. 크롤러 폴더의 의존성 라이브러리 설치
+    - name: Install dependencies
+      run: |
+        cd crawler
+        npm install
+
+    # 4. Playwright 구동용 Chromium 브라우저 바이너리 설치
+    - name: Install Playwright Browsers
+      run: |
+        cd crawler
+        npx playwright install chromium --with-deps
+
+    # 5. 크롤링 스크립트 실행 (web/sample-courses.js 자동 업데이트)
+    - name: Run Scraper
+      run: |
+        cd crawler
+        node scraper.js
+
+    # 6. 변경된 데이터가 있을 경우 깃허브에 자동으로 커밋 및 푸시
+    - name: Commit and Push changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add web/sample-courses.js
+        # 변경 사항이 있을 때만 커밋 수행 (에러 방지)
+        git diff-index --quiet HEAD || git commit -m "Auto-update scraped courses data"
+        git push origin main
