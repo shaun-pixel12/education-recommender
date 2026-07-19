@@ -14,7 +14,7 @@ export const sampleCourses = [
     "fee": "무료",
     "difficulty": "중급",
     "description": "[전남대 / 대면] Cadence APD를 활용한 IC Package 설계 실무 과정입니다. 상태: 신청중. 수강신청을 통해 교육 기회를 확보하세요.",
-    "scrapedAt": "2026-07-18"
+    "scrapedAt": "2026-07-19"
   },
   {
     "id": "idec-scraped-acad-0",
@@ -31,7 +31,7 @@ export const sampleCourses = [
     "fee": "무료",
     "difficulty": "초급",
     "description": "[전남대-아카데미 / 대면 & 온라인] 반도체 패키징 기초 실무 과정입니다. 상태: 준비중. 수강신청을 통해 교육 기회를 확보하세요.",
-    "scrapedAt": "2026-07-18"
+    "scrapedAt": "2026-07-19"
   },
   {
     "id": "idec-scraped-acad-1",
@@ -49,7 +49,7 @@ export const sampleCourses = [
     "fee": "무료",
     "difficulty": "중급",
     "description": "[광운대-아카데미 / 대면 & 온라인] HBM과 첨단패키징 기술 실무 과정입니다. 상태: 신청중. 수강신청을 통해 교육 기회를 확보하세요.",
-    "scrapedAt": "2026-07-18"
+    "scrapedAt": "2026-07-19"
   },
   {
     "id": "idec-scraped-acad-9",
@@ -68,7 +68,7 @@ export const sampleCourses = [
     "fee": "무료",
     "difficulty": "초급",
     "description": "[한양대-아카데미 / 대면 & 온라인] 메모리/비메모리향 아날로그 및 디지털 PCB/DIB 설계기초 실무 과정입니다. 상태: 신청중. 수강신청을 통해 교육 기회를 확보하세요.",
-    "scrapedAt": "2026-07-18"
+    "scrapedAt": "2026-07-19"
   },
   {
     "id": "seminarhub-007",
@@ -87,7 +87,7 @@ export const sampleCourses = [
     "fee": "유료",
     "difficulty": "초급",
     "description": "HBM4 트렌드 및 최신 화두인 유리기판(Glass Substrate) 공정 기술과 사업화 전략을 공유하는 전문 컨퍼런스입니다.",
-    "scrapedAt": "2026-07-18"
+    "scrapedAt": "2026-07-19"
   },
   {
     "id": "kpca-005",
@@ -106,7 +106,7 @@ export const sampleCourses = [
     "fee": "유료",
     "difficulty": "초급",
     "description": "서브스트레이트 기판(FC-BGA 등) 제조 공정과 패키징 소재(EMC, 솔더볼) 연계 교육 과정입니다.",
-    "scrapedAt": "2026-07-18"
+    "scrapedAt": "2026-07-19"
   },
   {
     "id": "idec-003",
@@ -125,7 +125,7 @@ export const sampleCourses = [
     "fee": "무료",
     "difficulty": "고급",
     "description": "패키지 신뢰성 확보를 위해 CAE 툴(ANSYS/ABAQUS)을 이용한 Warpage(휘어짐) 불량 분석 및 구조 해석 실습을 진행합니다.",
-    "scrapedAt": "2026-07-18"
+    "scrapedAt": "2026-07-19"
   },
   {
     "id": "ksia-001",
@@ -144,7 +144,7 @@ export const sampleCourses = [
     "fee": "유료",
     "difficulty": "중급",
     "description": "반도체 패키징 기초 공정부터 플립칩, 와이어 본딩 등 실무 중심의 기술을 학습하고 최신 트렌드를 파악하는 과정입니다.",
-    "scrapedAt": "2026-07-18"
+    "scrapedAt": "2026-07-19"
   },
   {
     "id": "nnfc-002",
@@ -163,7 +163,7 @@ export const sampleCourses = [
     "fee": "무료",
     "difficulty": "고급",
     "description": "클린룸 내에서 진행되는 첨단 패키징 장비(TSV, 범핑, 백그라인딩 등) 실무 실습 프로그램입니다.",
-    "scrapedAt": "2026-07-18"
+    "scrapedAt": "2026-07-19"
   },
   {
     "id": "kanc-004",
@@ -182,7 +182,7 @@ export const sampleCourses = [
     "fee": "유료",
     "difficulty": "중급",
     "description": "패키징 공정 후 발생하는 Delamination, Void 등의 불량 원인을 파악하고 SAT, SEM 등 분석 장비를 활용한 고장분석 기법을 다룹니다.",
-    "scrapedAt": "2026-07-18"
+    "scrapedAt": "2026-07-19"
   },
   {
     "id": "semi-kr-006",
@@ -201,7 +201,7 @@ export const sampleCourses = [
     "fee": "유료",
     "difficulty": "고급",
     "description": "국내외 최고 전문가들을 초빙하여 HBM, Chiplet, 2.5D/3D 이종 집적 패키징 기술의 흐름과 솔루션을 전달합니다.",
-    "scrapedAt": "2026-07-18"
+    "scrapedAt": "2026-07-19"
   },
   {
     "id": "kmeps-008",
@@ -220,7 +220,7 @@ export const sampleCourses = [
     "fee": "유료",
     "difficulty": "중급",
     "description": "국내 학계 및 산업계 연구원들이 참여하여 초미세 패키지 측정/검사 및 3D X-Ray 비파괴 검사 기술 성과를 발표합니다.",
-    "scrapedAt": "2026-07-18"
+    "scrapedAt": "2026-07-19"
   },
   {
     "id": "coursera-asu-009",
@@ -239,7 +239,7 @@ export const sampleCourses = [
     "fee": "유료",
     "difficulty": "초급",
     "description": "ASU 대학과 인텔이 공동 개발한 글로벌 온라인 강의로, 다이싱부터 써멀 매니지먼트까지 패키지 설계의 기본 이론을 다룹니다.",
-    "scrapedAt": "2026-07-18"
+    "scrapedAt": "2026-07-19"
   },
   {
     "id": "semi-u-010",
@@ -258,7 +258,7 @@ export const sampleCourses = [
     "fee": "유료",
     "difficulty": "초급",
     "description": "SEMI U 글로벌 온라인 프로그램으로 글로벌 기업 엔지니어들이 필수로 수강하는 어셈블리 및 패키지 표준 교육입니다.",
-    "scrapedAt": "2026-07-18"
+    "scrapedAt": "2026-07-19"
   },
   {
     "id": "imaps-011",
@@ -277,7 +277,7 @@ export const sampleCourses = [
     "fee": "유료",
     "difficulty": "중급",
     "description": "IMAPS 주관 온라인 VOD 패키지로 FOWLP, 3D 패키징 및 신소재 기술에 대한 글로벌 석학들의 집중 강의를 볼 수 있습니다.",
-    "scrapedAt": "2026-07-18"
+    "scrapedAt": "2026-07-19"
   },
   {
     "id": "ieee-ectc-012",
@@ -296,7 +296,7 @@ export const sampleCourses = [
     "fee": "유료",
     "difficulty": "고급",
     "description": "패키징 분야 최고 권위의 ECTC 컨퍼런스 직전 개설되는 세션으로, 2.5D/3D 본딩 및 마이크로범핑 신뢰성 분야 연구를 강의합니다.",
-    "scrapedAt": "2026-07-18"
+    "scrapedAt": "2026-07-19"
   },
   {
     "id": "semitracks-013",
@@ -315,7 +315,7 @@ export const sampleCourses = [
     "fee": "유료",
     "difficulty": "중급",
     "description": "글로벌 재직자 대상 라이브/온라인 패키지 신뢰성 전문 교육으로 고장분석 메커니즘과 ESD 방지 대책을 중점 학습합니다.",
-    "scrapedAt": "2026-07-18"
+    "scrapedAt": "2026-07-19"
   },
   {
     "id": "kird-014",
@@ -333,7 +333,7 @@ export const sampleCourses = [
     "fee": "무료",
     "difficulty": "초급",
     "description": "비전공자 및 연구자를 위한 반도체 기초 이론부터 패키지 및 검사 장비의 기초 지식을 배울 수 있는 공공 무료 과정입니다.",
-    "scrapedAt": "2026-07-18"
+    "scrapedAt": "2026-07-19"
   },
   {
     "id": "kontrs-015",
@@ -351,7 +351,7 @@ export const sampleCourses = [
     "fee": "무료",
     "difficulty": "중급",
     "description": "8대 공정 실습과 함께 후공정 패키징 공정 장비의 전반적인 이해와 실무를 익히는 실습 교육 프로그램입니다.",
-    "scrapedAt": "2026-07-18"
+    "scrapedAt": "2026-07-19"
   },
   {
     "id": "champ-016",
@@ -369,7 +369,7 @@ export const sampleCourses = [
     "fee": "무료",
     "difficulty": "초급",
     "description": "중소/중견 OSAT 재직자들의 핵심 기술 고도화를 목표로 하는 와이어 본딩 실무 및 최종 파이널 테스트 핸들러 장비 실습 과정입니다.",
-    "scrapedAt": "2026-07-18"
+    "scrapedAt": "2026-07-19"
   },
   {
     "id": "mest-017",
@@ -388,7 +388,7 @@ export const sampleCourses = [
     "fee": "유료",
     "difficulty": "고급",
     "description": "시스템-기술 공동 최적화(STCO) 및 칩렛 연계 차세대 어드밴스드 패키징 고도의 시뮬레이션 및 설계 이론 강좌입니다.",
-    "scrapedAt": "2026-07-18"
+    "scrapedAt": "2026-07-19"
   },
   {
     "id": "pti-018",
@@ -407,7 +407,7 @@ export const sampleCourses = [
     "fee": "유료",
     "difficulty": "중급",
     "description": "실제 제조라인에서 접하는 플립칩 어셈블리 결함 및 솔더 접합부 신뢰성 문제에 대한 예방과 진단을 중점 교육합니다.",
-    "scrapedAt": "2026-07-18"
+    "scrapedAt": "2026-07-19"
   },
   {
     "id": "islap-019",
@@ -426,6 +426,6 @@ export const sampleCourses = [
     "fee": "유료",
     "difficulty": "중급",
     "description": "레거시 본딩 공정의 문제 해결책과 레이저 가공 솔루션, FOPLP 공정 상용화 현황을 보고하는 국제 기술 심포지엄입니다.",
-    "scrapedAt": "2026-07-18"
+    "scrapedAt": "2026-07-19"
   }
 ];
